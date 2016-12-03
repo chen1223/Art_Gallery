@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Art Gallery</title>
+    <link rel="icon" type="image/png" href="img/brush.png">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar">
+        <div class="brand">
+          <a class="navbar-brand" href="#">
+            <img alt="Art Gallery" src="img/brush.png" title="Icons made by Baianat from www.flaticon.com/authors/baianat">
+          </a>
+          <h1 class="title">Art Gallery</h1>
+          <button type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <ul class="nav-list">
+            <li><a href="index.html">home</a></li>
+            <li><a href="collection.html">collection</a></li>
+            <li><a href="event.html">event</a></li>
+            <li class="active"><a href="#">about</a></li>
+          </ul>
+        </div>
+    </nav>
+
+  </header>
+  <div class="wrapper">
+    <div class="about-wrapper">
+      <div class="about-container">
+        <div class="row">
+          <div class="col-md-9">
+            <iframe class="about-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26360707.011023313!2d-113.744272627718!3d36.24290096335691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2z576O5ZyL!5e0!3m2!1szh-TW!2stw!4v1480668841860" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-3">
+            <div class="about-info-block">
+              <span class="about-phone-title">Phone</span>
+              <span class="about-phone">123-456-7890</span>
+              <span class="about-email-title">Email</span>
+              <span class="about-email">dummy@gmail.com</span>
+              <span class="about-address-title">Address</span>
+              <span class="about-address">15, Dummy Street, DS, USA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form role="form">
+          <div class="row">
+            <div class="form-group col-md-4">
+              <label>Name</label>
+              <input type="text" name="name" class="form-control">
+            </div>
+            <div class="form-group col-md-4">
+              <label>Email Address</label>
+              <input type="email" name="email" class="form-control">
+            </div>
+            <div class="form-group col-md-4">
+              <label>Phone Number</label>
+              <input type="tel" name="tel" class="form-control">
+            </div>
+            <div class="form-group col-lg-12">
+              <label>Message</label>
+              <textarea rows="6" class="form-control"></textarea>
+            </div>
+            <div class="form-group col-md-12">
+              <input type="hidden" name="save" value="contact">
+              <button type="submit" class="btn btn-default ">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
